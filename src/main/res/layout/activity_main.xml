@@ -32,4 +32,24 @@
         app:layout_constraintLeft_toRightOf="@id/bt_plugin" />
 
 
+    <TextView
+        android:id="@+id/tv_love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="i love you "
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/bt_sdcard" />
+
+    <TextView
+        android:id="@+id/tv_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="i like you "
+        android:textSize="20sp"
+        android:background="@mipmap/tab_home_select"
+        app:layout_constraintTop_toBottomOf="@+id/tv_love" />
+
+
 </android.support.constraint.ConstraintLayout>
